@@ -7,5 +7,6 @@ services:
    - "80:8080"
   volumes:
    - ./:/code
+   - ./node_modules:/code
   stdin_open: true
   tty: true
